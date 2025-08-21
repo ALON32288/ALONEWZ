@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ALONEWZ</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <img src="assets/logo.svg" alt="ALONEWZ" class="logo"/>
+    <span class="status-tag">חדש</span>
+  </header>
+
+  <main id="feed">
+    <!-- Hero Card -->
+    <section class="hero fade-in">
+      <video autoplay muted loop>
+        <source src="assets/hero.mp4" type="video/mp4"/>
+      </video>
+      <h1 class="headline">משבר בכנסת</h1>
+      <div class="cta-buttons">
+        <button>גרף אחד להבין</button>
+        <button>60 שניות הסבר</button>
+      </div>
+    </section>
+
+    <!-- Behind Headline -->
+    <section class="behind-headline fade-up">
+      <h2>מאחורי הכותרת</h2>
+      <ul>
+        <li>עימות בין ראשי המפלגות על חוק הגיוס</li>
+        <li>נתניהו כינס פגישה דחופה עם דרעי</li>
+        <li>האם הממשלה תשרוד? כל התרחישים 👇</li>
+      </ul>
+      <a href="#">לרקע היסטורי ומשפטי →</a>
+    </section>
+
+    <!-- Data Card -->
+    <section class="data-card fade-up">
+      <h2>גרף אחד להבין</h2>
+      <div class="bar-chart">
+        <div class="bar yes" style="height:56%">בעד (56)</div>
+        <div class="bar no" style="height:58%">נגד (58)</div>
+      </div>
+    </section>
+
+    <!-- Poll -->
+    <section class="poll fade-up">
+      <h2>עמדתך בסוגיה <span class="live">LIVE</span></h2>
+      <p>מסכים עם עמדת האופוזיציה?</p>
+      <button class="agree">מסכים</button>
+      <button class="disagree">לא מסכים</button>
+      <div class="why"><a href="#">ספרו למה →</a></div>
+    </section>
+
+    <!-- Join CTA -->
+    <section class="join-cta fade-in">
+      <p>רוצה לדעת ראשון? הצטרף לטלגרם ✈️</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

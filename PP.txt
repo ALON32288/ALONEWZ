@@ -1,0 +1,5 @@
+document.querySelectorAll('.agree, .disagree').forEach(btn => {
+  btn.addEventListener('click', () => {
+    alert('תודה על ההצבעה!');
+  });
+});
